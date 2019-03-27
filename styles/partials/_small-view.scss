@@ -1,0 +1,35 @@
+/*MOBILE VIEW*/
+@media (max-width: 650px) {
+  /*This is the "nav" section that starts "Select a Design / Archives / Resources" */
+  .sidebar {
+    grid-column: 2/3;
+    grid-row: 3/2;
+    border: 2px solid $denim;
+    background-color: $popcorn;
+    padding-bottom: 0.5em;
+  }
+
+  /*This wraps the entire page*/
+  .page-wrapper {
+    display: inline;
+    grid-gap: 10px;
+    grid-template-columns: 1fr, 1fr 1fr 1fr;
+    grid-template-rows: 100px, 1fr 1fr 1fr, 1fr;
+  }
+
+  /*This scoots the "a demonstration.... paragraph up a bit... Needed?*/
+  p {
+    margin-top: 0;
+    text-align: justify;
+  }
+
+  /*This is the mobile view footer*/
+  footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 0.25em;
+  }
+}

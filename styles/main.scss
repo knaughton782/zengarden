@@ -1,0 +1,138 @@
+@import 'partials/_colors.scss';
+@import 'partials/_header.scss';
+@import 'partials/_typography.scss';
+@import 'partials/_sidebar.scss';
+
+
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*This is the "nav" section that starts "Select a Design / Archives / Resources" */
+.sidebar {
+  grid-column: 1/3;
+  grid-row: 3/2;
+  /*background-color: red;*/
+  margin: 5px;
+  padding: 10px;
+}
+
+/*This is the body text container- "So what is this about / participation/ benefits/ requirements/ by Dave Shea */
+.main {
+  /*background-color: palegreen;*/
+  padding: 2vw;
+}
+
+/*This wraps the entire page*/
+.page-wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr, 1fr 1fr 1fr;
+  grid-template-rows: 100px, 1fr 1fr 1fr, 1fr;
+}
+
+/*This is the footer section with html/ CSS / cc / ally. / gh */
+footer {
+  display: grid;
+  grid-template-columns: 10% 20% 20% 20% 20% 10%;
+  text-align: center;
+  /*background-color: beige;*/
+  padding: 10vw;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 25vw;
+  padding-top: 5vw;
+  font-weight: bold;
+  opacity: 0.5;
+  background-color:white;
+}
+
+footer a {
+    font-size:2vw;
+    text-decoration:none;
+    color:black;
+    padding:2px;
+}
+
+footer a:hover {
+    font-size:2vw;
+    text-decoration:underline;
+    background-color:$bubblegum;
+}
+
+/*This is the box around the footer section "html"*/
+.zen-validate-html {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  /*background-color: red;*/
+} 
+
+/*This is the box around the footer section "css"*/
+.zen-validate-css {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  /*background-color: pink;*/
+}
+
+/*This is the box around the footer section "cc"*/
+.zen-license {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  /*background-color: paleturquoise;*/
+}
+
+/*This is the box around the footer section "ally."*/
+.zen-accessibility {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  /*background-color: orange;*/
+}
+
+/*This is the box around the footer section "gh"*/
+.zen-github {
+  grid-column-start: 6;
+  grid-column-end: 6;
+  /* background-color: magenta;*/
+}
+// sub headers --we could make this a parital if wanted. I need to add the styles of the borders in these areas
+
+.explanation h3 {
+    background-color: $denim;
+    border: 1.5vw dotted $lion;
+}
+
+.participation h3 {
+    background-color: $licorice;
+    /*padding:15px;*/
+}
+
+.benefits h3 {
+    background-color: $bubblegum;
+    //padding:15px;
+}
+
+.requirements h3 {
+    background-color: $mint
+}
+
+//background
+body {
+  background-color: $popcorn;
+  background: repeating-linear-gradient(
+  to right,
+  $elephant,
+  $elephant 10px,
+  $popcorn 10px,
+  $popcorn 20px
+); 
+  
+}
+
+@import 'partials/small-view';
+
+/*# sourceMappingURL=grid.css.map */

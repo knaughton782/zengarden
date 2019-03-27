@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+@import url('https://fonts.googleapis.com/css?family=Sancreek');
+
+$title-font: 'Sancreek',
+cursive;
+$primary-font: 'Alegreya Sans',
+sans-serif; 
+$secondary-font: 'Alegreya Sans',
+sans-serif; //bold & uppercase
+
+body{
+    font-family:$primary-font;
+}
+h1 {
+    font-family: $secondary-font;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0 0 0.4em;
+   
+    // @include MQ(S) {
+    //   font-size: 3.2rem;
+    // }
+
+    // @include MQ(M) {
+    //   font-size: 4rem;
+    // }
+}
+
+header h1 {
+    font-size:3em;
+    color:$licorice;
+    text-shadow: 3px 3px 5px $sky;
+    font-family: $title-font;
+    
+    
+}
+
+h2 {
+    font-family: $secondary-font;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-weight: bold;
+    margin: 1em 0;
+    letter-spacing:2px;
+    font-size:20px;
+ 
+
+    // @include MQ(S) {
+    //   font-size: 1.8rem;
+    //   margin: 1em 0 1.4em;
+    // }
+}
+
+h3 {
+    font-family: $primary-font;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing:2px;
+    color:black;
+    width:70%;
+    padding:10px;
+
+}
+.preamble h3{
+    font-family: $primary-font;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing:2px;
+    color:$elephant;
+    text-align:center;
+    
+   
+}
+
+
+
+.design-selection,
+.design-archives,
+.zen-resources {
+    font-family: $primary-font;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.designer-name {
+    font-style: italic;
+}
+
+// section > h2::before {
+//   /* number before each section title */
+//   // color: darken($emerald, 15%);
+// }
+
+p {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-size: $primary-font;
+    // color: darken($denim, 15%);
+
+   a {
+    //color:$bubblegum;
+   text-decoration:underline;
+       
+   
+}
+    
+
+    // @include MQ(S) {
+    //   font-size: 1.6rem;
+    //   line-height: 1.6;
+    // }
+}
+footer{
+    font-family:$primary-font;
+    font-size:1em;
+}
