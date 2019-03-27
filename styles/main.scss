@@ -1,16 +1,12 @@
 @import 'partials/_colors.scss';
 @import 'partials/_header.scss';
 @import 'partials/_typography.scss';
-@import 'partials/_sidebar.scss';
-
-
+@import 'partials/_nav.scss';
 
 html {
   margin: 0;
   padding: 0;
 }
-
-
 
 /*This is the "nav" section that starts "Select a Design / Archives / Resources" */
 .sidebar {
@@ -49,20 +45,20 @@ footer {
   padding-top: 5vw;
   font-weight: bold;
   opacity: 0.5;
-  background-color:white;
+  background-color: white;
 }
 
 footer a {
-    font-size:2vw;
-    text-decoration:none;
-    color:black;
-    padding:2px;
+  font-size: 2vw;
+  text-decoration: none;
+  color: black;
+  padding: 2px;
 }
 
 footer a:hover {
-    font-size:2vw;
-    text-decoration:underline;
-    background-color:$bubblegum;
+  font-size: 2vw;
+  text-decoration: underline;
+  background-color: $bubblegum;
 }
 
 /*This is the box around the footer section "html"*/
@@ -70,7 +66,7 @@ footer a:hover {
   grid-column-start: 2;
   grid-column-end: 3;
   /*background-color: red;*/
-} 
+}
 
 /*This is the box around the footer section "css"*/
 .zen-validate-css {
@@ -102,35 +98,34 @@ footer a:hover {
 // sub headers --we could make this a parital if wanted. I need to add the styles of the borders in these areas
 
 .explanation h3 {
-    background-color: $denim;
-    border: 1.5vw dotted $lion;
+  background-color: $denim;
+  border: 1.5vw dotted $lion;
 }
 
 .participation h3 {
-    background-color: $licorice;
-    /*padding:15px;*/
+  background-color: $licorice;
+  /*padding:15px;*/
 }
 
 .benefits h3 {
-    background-color: $bubblegum;
-    //padding:15px;
+  background-color: $bubblegum;
+  //padding:15px;
 }
 
 .requirements h3 {
-    background-color: $mint
+  background-color: $mint;
 }
 
 //background
 body {
   background-color: $popcorn;
   background: repeating-linear-gradient(
-  to right,
-  $elephant,
-  $elephant 10px,
-  $popcorn 10px,
-  $popcorn 20px
-); 
-  
+    to right,
+    $elephant,
+    $elephant 10px,
+    $popcorn 10px,
+    $popcorn 20px
+  );
 }
 
 @import 'partials/small-view';

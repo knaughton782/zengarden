@@ -1,0 +1,484 @@
+// navigation styles - we can add this to the nav partial
+ul {
+  list-style-type: none;
+  color: white;
+}
+//ul li {
+//    background-color:aqua;
+//    padding:1vw;
+//}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li:nth-child(1) {
+  background-color: $licorice;
+  padding: 1vw;
+  margin-bottom: 2vw;
+}
+
+ul li:nth-child(2) {
+  background-color: $bubblegum;
+  padding: 1vw;
+  margin-bottom: 2vw;
+}
+
+ul li:nth-child(3) {
+  background-color: $lion;
+  padding: 1vw;
+  margin-bottom: 2vw;
+}
+
+ul li:nth-child(4) {
+  background-color: $sky;
+  padding: 1vw;
+  margin-bottom: 2vw;
+}
+
+ul li:nth-child(5) {
+  background-color: $trapeze;
+  padding: 1vw;
+  margin-bottom: 2vw;
+}
+ul li:nth-child(6) {
+  background-color: $mint;
+  padding: 1vw;
+  margin-bottom: 2vw;
+}
+ul li:nth-child(7) {
+  background-color: $emerald;
+  padding: 1vw;
+  margin-bottom: 2vw;
+}
+ul li:nth-child(8) {
+  background-color: $denim;
+  padding: 1vw;
+  margin-bottom: 2vw;
+}
+
+//to break the line before "by"
+li .design-name:nth-child(1) {
+  display: block;
+}
+
+// first thinner bar ***************************************
+.design-archives li:nth-child(1),
+.zen-resources li:nth-child(1) {
+  width: 210px;
+  height: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.design-archives li:nth-child(1)::after,
+.zen-resources li:nth-child(1)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid $popcorn;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+.design-archives li:nth-child(1)::before,
+.zen-resources li:nth-child(1)::before {
+  content: '';
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid $licorice;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+// second thin ***************************************
+.design-archives li:nth-child(2),
+.zen-resources li:nth-child(2) {
+  width: 210px;
+  height: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.design-archives li:nth-child(2)::after,
+.zen-resources li:nth-child(2)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid $popcorn;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+.design-archives li:nth-child(2)::before,
+.zen-resources li:nth-child(2)::before {
+  content: '';
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid $bubblegum;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+// third thin ***************************************
+.zen-resources li:nth-child(3) {
+  width: 210px;
+  height: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.zen-resources li:nth-child(3)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid $popcorn;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+.zen-resources li:nth-child(3)::before {
+  content: '';
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid $lion;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+// fourth thin ***************************************
+.zen-resources li:nth-child(4) {
+  width: 210px;
+  height: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.zen-resources li:nth-child(4)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid $popcorn;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+.zen-resources li:nth-child(4)::before {
+  content: '';
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid $sky;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+// fifth thin ***************************************
+.zen-resources li:nth-child(5) {
+  width: 210px;
+  height: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.zen-resources li:nth-child(5)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid $popcorn;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+.zen-resources li:nth-child(5)::before {
+  content: '';
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid $trapeze;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+// 1 thicker bar ***************************************
+.design-selection li:nth-child(1) {
+  width: 210px;
+  height: 35px;
+  position: relative;
+  text-align: center;
+}
+
+.design-selection li:nth-child(1)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 29px solid $popcorn;
+  border-top: 29px solid transparent;
+  border-bottom: 29px solid transparent;
+}
+
+.design-selection li:nth-child(1)::before {
+  content: '';
+  position: absolute;
+  right: -27px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 27px solid $licorice;
+  border-top: 27px solid transparent;
+  border-bottom: 27px solid transparent;
+}
+
+// 2 thicker bar ***************************************
+.design-selection li:nth-child(2) {
+  width: 210px;
+  height: 35px;
+  position: relative;
+  text-align: center;
+}
+
+.design-selection li:nth-child(2)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 29px solid $popcorn;
+  border-top: 29px solid transparent;
+  border-bottom: 29px solid transparent;
+}
+
+.design-selection li:nth-child(2)::before {
+  content: '';
+  position: absolute;
+  right: -27px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 27px solid $bubblegum;
+  border-top: 27px solid transparent;
+  border-bottom: 27px solid transparent;
+}
+
+// 3 thicker bar ***************************************
+.design-selection li:nth-child(3) {
+  width: 210px;
+  height: 35px;
+  position: relative;
+  text-align: center;
+}
+
+.design-selection li:nth-child(3)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 29px solid $popcorn;
+  border-top: 29px solid transparent;
+  border-bottom: 29px solid transparent;
+}
+
+.design-selection li:nth-child(3)::before {
+  content: '';
+  position: absolute;
+  right: -27px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 27px solid $lion;
+  border-top: 27px solid transparent;
+  border-bottom: 27px solid transparent;
+}
+
+// 4 thicker bar ***************************************
+.design-selection li:nth-child(4) {
+  width: 210px;
+  height: 35px;
+  position: relative;
+  text-align: center;
+}
+
+.design-selection li:nth-child(4)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 29px solid $popcorn;
+  border-top: 29px solid transparent;
+  border-bottom: 29px solid transparent;
+}
+
+.design-selection li:nth-child(4)::before {
+  content: '';
+  position: absolute;
+  right: -27px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 27px solid $sky;
+  border-top: 27px solid transparent;
+  border-bottom: 27px solid transparent;
+}
+
+// 5 thicker bar ***************************************
+.design-selection li:nth-child(5) {
+  width: 210px;
+  height: 35px;
+  position: relative;
+  text-align: center;
+}
+
+.design-selection li:nth-child(5)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 29px solid $popcorn;
+  border-top: 29px solid transparent;
+  border-bottom: 29px solid transparent;
+}
+
+.design-selection li:nth-child(5)::before {
+  content: '';
+  position: absolute;
+  right: -27px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 27px solid $trapeze;
+  border-top: 27px solid transparent;
+  border-bottom: 27px solid transparent;
+}
+// 6 thicker bar ***************************************
+.design-selection li:nth-child(6) {
+  width: 210px;
+  height: 35px;
+  position: relative;
+  text-align: center;
+}
+
+.design-selection li:nth-child(6)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 29px solid $popcorn;
+  border-top: 29px solid transparent;
+  border-bottom: 29px solid transparent;
+}
+
+.design-selection li:nth-child(6)::before {
+  content: '';
+  position: absolute;
+  right: -27px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 27px solid $mint;
+  border-top: 27px solid transparent;
+  border-bottom: 27px solid transparent;
+}
+
+// 7 thicker bar ***************************************
+.design-selection li:nth-child(7) {
+  width: 210px;
+  height: 35px;
+  position: relative;
+  text-align: center;
+}
+
+.design-selection li:nth-child(7)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 29px solid $popcorn;
+  border-top: 29px solid transparent;
+  border-bottom: 29px solid transparent;
+}
+
+.design-selection li:nth-child(7)::before {
+  content: '';
+  position: absolute;
+  right: -27px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 27px solid $emerald;
+  border-top: 27px solid transparent;
+  border-bottom: 27px solid transparent;
+}
+
+// 8 thicker bar ***************************************
+.design-selection li:nth-child(8) {
+  width: 210px;
+  height: 35px;
+  position: relative;
+  text-align: center;
+}
+
+.design-selection li:nth-child(8)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 29px solid $popcorn;
+  border-top: 29px solid transparent;
+  border-bottom: 29px solid transparent;
+}
+
+.design-selection li:nth-child(8)::before {
+  content: '';
+  position: absolute;
+  right: -27px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 27px solid $denim;
+  border-top: 27px solid transparent;
+  border-bottom: 27px solid transparent;
+}
