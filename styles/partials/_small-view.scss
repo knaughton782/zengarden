@@ -31,61 +31,58 @@
     left: 0;
     text-align: center;
     padding: 0.55em;
-      margin-top: 1em;
+    margin-top: 1em;
   }
-    footer a{
-        font-size: .75em;
-    }
-    footer:before {
-    content: "";
-      width: 0;
-      height: 0;
-      border-top: 1em solid transparent;
-      border-bottom: 1em solid transparent;
-      border-left: 1em solid #edece6;
-      position: absolute;
-      left:0;
-      top: 0; 
-}
-    footer a:hover {
-    font-size:.75em;
-    }
- //This is targeting the "Download the example html file and css file" line
-.summary p:nth-child(2){
+  footer a {
+    font-size: 0.75em;
+  }
 
-    font-size: .5em;
- 
-}
-//This is the boxes around the source code
+  footer:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 1em solid transparent;
+    border-bottom: 1em solid transparent;
+    border-left: 1em solid #edece6;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  footer a:hover {
+    font-size: 0.75em;
+  }
 
-.summary p a:nth-child(1){
+  //This is targeting the "Download the example html file and css file" line
+  .summary p:nth-child(2) {
+    font-size: 0.5em;
+  }
+
+  //This is the boxes around the source code
+  .summary p a:nth-child(1) {
     background-color: $sky;
-    padding: .5em;
-}
+    padding: 0.5em;
+  }
 
-
-.summary p a:nth-child(2){
+  .summary p a:nth-child(2) {
     background-color: $mint;
-    padding: .5em;
-}
+    padding: 0.5em;
+  }
 
-.summary p a{
+  .summary p a {
     text-decoration: none;
     color: white;
-}
+  }
   .summary p a:hover {
-  outline: $lion dotted .85vw;
-  outline-offset: .1em;
-}  
-    
-    
-    
-    #zen-preamble h3:hover:after {
-    content: url(/images/popupMobileAsset%2012.png);
-transition: ease;
-display: block;
+    outline: $lion dotted 0.85vw;
+    outline-offset: 0.1em;
+  }
+
+  #zen-preamble h3:hover:after {
+    content: url(/images/popupMobileAsset-12.png);
+    transition: ease;
+    display: block;
     position: absolute;
-left: 3vw;
+    left: 3vw;
     right: 3vw;
-}
+  }
 }

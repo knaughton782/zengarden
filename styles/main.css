@@ -118,15 +118,18 @@ ul {
   list-style-type: none;
   color: white;
 }
+
 ul li a {
   text-decoration: none;
   color: white;
 }
+
 ul li:nth-child(1) {
   background-color: #e64140;
   padding: 1vw;
   margin-bottom: 2vw;
 }
+
 ul li:nth-child(2) {
   background-color: #f37f80;
   padding: 1vw;
@@ -615,37 +618,32 @@ li .design-name:nth-child(1) {
   font-weight: 200;
   font-size: 0.8em;
 }
+.summary:nth-child(2) {
+  font-size: 1em;
+}
+.summary a:nth-child(1) {
+  background-color: #b4d1c8;
+  padding: 0.15em;
+}
+.summary a:nth-child(2) {
+  background-color: #83b09b;
+  padding: 0.15em;
+}
+.summary a {
+  text-decoration: none;
+  color: white;
+}
+.summary a:hover {
+  outline: #eaa959 dotted 0.25vw;
+  outline-offset: 0.1em;
+}
 
 #zen-summary {
   width: 100%;
   color: #505a6e;
 }
 
-.summary p:nth-child(2) {
-  font-size: 1em;
-}
-
-.summary p a:nth-child(1) {
-  background-color: #b4d1c8;
-  padding: 0.15em;
-}
-
-.summary p a:nth-child(2) {
-  background-color: #83b09b;
-  padding: 0.15em;
-}
-
-.summary p a {
-  text-decoration: none;
-  color: white;
-}
-
-.summary p a:hover {
-  outline: #eaa959 dotted 0.25vw;
-  outline-offset: 0.1em;
-}
-
-abbr {
+.summary p abbr {
   text-decoration: none;
 }
 
@@ -888,7 +886,7 @@ body {
   }
 
   #zen-preamble h3:hover:after {
-    content: url(/images/popupMobileAsset%2012.png);
+    content: url(/images/popupMobileAsset-12.png);
     transition: ease;
     display: block;
     position: absolute;
