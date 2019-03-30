@@ -38,60 +38,6 @@ header:before {
   margin-top: 2em;
 }
 
-/* This is the text that says- "A demonstration of what can be accomplished..." */
-.summary p {
-  margin-left: 13vw;
-  margin-right: 13vw;
-  text-align: center;
-  color: #505a6e;
-  text-transform: uppercase;
-  font-weight: bolder;
-  letter-spacing: 0.2em;
-  font-weight: 200;
-}
-
-.summary p a:nth-child(1) {
-  background-color: #b4d1c8;
-  padding: 0.25em;
-}
-
-.summary p a:nth-child(2) {
-  background-color: #83b09b;
-  padding: 0.25em;
-}
-
-.summary p a {
-  text-decoration: none;
-  color: white;
-}
-
-.summary p a:hover {
-  border-radius: 10%;
-  padding: 1em;
-}
-
-/* This is the section that starts with- "The road to enlightenment.." */
-.preamble {
-  background-color: #505a6e;
-  width: 100%;
-  padding: 1em;
-  color: white;
-  margin: 0 auto;
-  text-align: left;
-  /*display: none;*/
-}
-
-#zen-preamble h3 {
-  text-align: left;
-  color: #eaa959;
-  margin: 0;
-  width: 100%;
-}
-
-div .preamble:nth-child(2) {
-  background-color: pink;
-}
-
 body {
   font-family: "Alegreya Sans", sans-serif;
 }
@@ -640,9 +586,97 @@ li .design-name:nth-child(1) {
   border-bottom: 27px solid transparent;
 }
 
+/* This is the section that starts with- "The road to enlightenment.." */
+.preamble {
+  text-align: center;
+}
+
+#zen-preamble h3:hover:after {
+  content: url(/images/popUpDesktopAsset%2011.png);
+  transition: ease;
+  display: block;
+  position: absolute;
+  left: 3vw;
+  right: 3vw;
+  cursor: pointer;
+}
+
+#zen-preamble h3 {
+  text-align: center;
+  color: #f37f80;
+  margin: 0;
+  width: 100%;
+  font-size: 1em;
+}
+
+.preamble p {
+  display: none;
+}
+
+/* This is the text that says- "A demonstration of what can be accomplished..." */
+.summary p {
+  margin-left: 13vw;
+  margin-right: 13vw;
+  text-align: center;
+  color: #505a6e;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 0.2em;
+  font-weight: 200;
+  font-size: 0.8em;
+}
+
+#zen-summary {
+  width: 100%;
+  color: #505a6e;
+}
+
+.summary p:nth-child(2) {
+  font-size: 1em;
+}
+
+.summary p a:nth-child(1) {
+  background-color: #b4d1c8;
+  padding: 0.15em;
+}
+
+.summary p a:nth-child(2) {
+  background-color: #83b09b;
+  padding: 0.15em;
+}
+
+.summary p a {
+  text-decoration: none;
+  color: white;
+}
+
+.summary p a:hover {
+  outline: #eaa959 dotted 0.25vw;
+  outline-offset: 0.1em;
+}
+
+abbr {
+  text-decoration: none;
+}
+
 html {
   margin: 0;
   padding: 0;
+}
+
+p a:link {
+  color: #f37f80;
+  text-decoration: none;
+}
+
+p a:visited {
+  color: #449375;
+  text-decoration: underline;
+}
+
+p a:hover {
+  color: #eaa959;
+  text-decoration: underline;
 }
 
 /*This is the "nav" section that starts "Select a Design / Archives / Resources" */
@@ -671,18 +705,11 @@ html {
 /*This is the footer section with html/ CSS / cc / ally. / gh */
 footer {
   display: grid;
-  grid-template-columns: 10% 20% 20% 20% 20% 10%;
-  text-align: center;
-  /*background-color: beige;*/
-  padding: 10vw;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin-top: 25vw;
-  padding-top: 5vw;
+  grid-template-columns: 0% 20% 20% 20% 20% 20%;
+  padding: 2vw;
   font-weight: bold;
-  opacity: 0.5;
-  background-color: white;
+  background-color: #449375;
+  text-align: center;
 }
 
 footer a {
@@ -735,25 +762,68 @@ footer a:hover {
 
 .explanation h3 {
   background-color: #505a6e;
-  border: 1.5vw dotted #eaa959;
+  outline: #eaa959 dotted 1vw;
+  outline-offset: 0.1em;
+  width: 91.5%;
+  color: white;
+  text-align: center;
 }
 
 .participation h3 {
   background-color: #e64140;
-  /*padding:15px;*/
+  text-align: left;
+  position: relative;
+  color: white;
+  margin-left: -0.5em;
+  text-align: center;
+  width: 95%;
+}
+
+.participation h3:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 1em solid transparent;
+  border-bottom: 1em solid transparent;
+  border-left: 1em solid #f5f3e6;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .benefits h3 {
   background-color: #f37f80;
+  position: relative;
+  color: white;
+  margin-left: -0.5em;
+  text-align: center;
+  width: 95%;
+}
+
+.benefits h3:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 1em solid transparent;
+  border-bottom: 1em solid transparent;
+  border-right: 1em solid #f5f3e6;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .requirements h3 {
   background-color: #83b09b;
+  color: white;
+  text-align: center;
+  width: 91.5%;
+  outline: #eaa959 dotted 1vw;
+  outline-offset: 0.1em;
 }
 
 body {
   background-color: #f5f3e6;
-  background: repeating-linear-gradient(to right, #e6e7e8, #e6e7e8 10px, #f5f3e6 10px, #f5f3e6 20px);
+  background: repeating-linear-gradient(to right, #edece6, #edece6 10px, #f5f3e6 10px, #f5f3e6 20px);
 }
 
 /*MOBILE VIEW*/
@@ -788,7 +858,61 @@ body {
     bottom: 0;
     left: 0;
     text-align: center;
-    padding: 0.25em;
+    padding: 0.55em;
+    margin-top: 1em;
+  }
+
+  footer a {
+    font-size: 0.75em;
+  }
+
+  footer:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 1em solid transparent;
+    border-bottom: 1em solid transparent;
+    border-left: 1em solid #edece6;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  footer a:hover {
+    font-size: 0.75em;
+  }
+
+  .summary p:nth-child(2) {
+    font-size: 0.5em;
+  }
+
+  .summary p a:nth-child(1) {
+    background-color: #b4d1c8;
+    padding: 0.5em;
+  }
+
+  .summary p a:nth-child(2) {
+    background-color: #83b09b;
+    padding: 0.5em;
+  }
+
+  .summary p a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .summary p a:hover {
+    outline: #eaa959 dotted 0.85vw;
+    outline-offset: 0.1em;
+  }
+
+  #zen-preamble h3:hover:after {
+    content: url(/images/popupMobileAsset%2012.png);
+    transition: ease;
+    display: block;
+    position: absolute;
+    left: 3vw;
+    right: 3vw;
   }
 }
 /*# sourceMappingURL=grid.css.map */

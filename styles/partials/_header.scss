@@ -14,13 +14,15 @@ header h2 {
   color: $denim;
   text-align: center;
   margin-top: -20px;
-  font-weight: 200;
+    font-weight: 200;
 }
 
 //This is the Banner image
+
 header:after {
-    content: url(../../images/flagBannerAsset%2036.svg);
+   content: url(../../images/flagBannerAsset%2036.svg);
     display: block;
+   
 }
 
 //This is the Zen Garden Logo Stuff
@@ -38,68 +40,4 @@ header:before {
     margin-top: 2em;
 }
 
-/* This is the text that says- "A demonstration of what can be accomplished..." */
 
-.summary p {
-  margin-left: 13vw;
-  margin-right: 13vw;
-  text-align: center;
-  color: $denim;
-  text-transform: uppercase;
-  font-weight: bolder;
-  letter-spacing: .2em;
-  font-weight: 200;
-}
-
-//This is where I am trying to just target the line that starts- "Select any style sheet..." **NOT WORKING- Selects entire section of text
-#zen-summary p:nth-child(1){
-  
-}
-
-//This is targeting the "Download the example html file and css file" line
-.summary p:nth-child(2){
- 
-}
-
-//This is the boxes around the source code
-.summary p a:nth-child(1) {
-    background-color: $sky;
-    padding: .25em;
-}
-
-.summary p a:nth-child(2) {
-    background-color: $mint;
-    padding: .25em;
-}
-
-.summary p a{
-    text-decoration: none;
-    color: white;
-}
-
-.summary p a:hover {
-  border-radius: 10%;
-  padding: 1em;
-}
-
-/* This is the section that starts with- "The road to enlightenment.." */
-.preamble {
-  background-color: $denim;
-  width: 100%;
-  padding: 1em;
-  color: white;
-  margin: 0 auto;
-  text-align: left;
-  /*display: none;*/
-}
-
-#zen-preamble h3 {
-    text-align: left;
-    color: $lion;
-    margin: 0;
-    width: 100%;
-}
-
-div .preamble:nth-child(2) {
-    background-color: pink;
-}

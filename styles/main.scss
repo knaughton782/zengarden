@@ -2,10 +2,25 @@
 @import 'partials/_header.scss';
 @import 'partials/_typography.scss';
 @import 'partials/_nav.scss';
+@import 'partials/_roadtoenlight.scss';
+@import 'partials/_summary.scss';
 
 html {
   margin: 0;
   padding: 0;
+}
+
+p a:link{
+    color:$bubblegum;
+    text-decoration:none;
+}
+p a:visited{
+    color:$emerald;
+    text-decoration:underline;
+}
+p a:hover{
+    color:$lion;
+    text-decoration:underline;
 }
 
 /*This is the "nav" section that starts "Select a Design / Archives / Resources" */
@@ -33,19 +48,21 @@ html {
 
 /*This is the footer section with html/ CSS / cc / ally. / gh */
 footer {
-  display: grid;
-  grid-template-columns: 10% 20% 20% 20% 20% 10%;
-  text-align: center;
-  /*background-color: beige;*/
-  padding: 10vw;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin-top: 25vw;
-  padding-top: 5vw;
-  font-weight: bold;
-  opacity: 0.5;
-  background-color: white;
+display: grid;
+grid-template-columns: 0% 20% 20% 20% 20% 20%;
+//  /*background-color: beige;*/
+padding: 2vw;
+////  position: absolute;
+//  left: 0;
+//  right: 0;
+//    margin: 0 auto;
+//    width: 40%;
+//  margin-top: 25vw;
+font-weight:bold;
+    background-color:$emerald;
+    text-align: center;
+  
+ 
 }
 
 footer a {
@@ -97,35 +114,82 @@ footer a:hover {
 }
 // sub headers --we could make this a parital if wanted. I need to add the styles of the borders in these areas
 
-.explanation h3 {
-  background-color: $denim;
-  border: 1.5vw dotted $lion;
+.explanation h3{
+  background-color:$denim;
+  outline: $lion dotted 1vw;
+  outline-offset: .1em;
+     width: 91.5%;
+    color: white;
+    text-align: center;
 }
 
-.participation h3 {
-  background-color: $licorice;
-  /*padding:15px;*/
+
+
+.participation h3{
+    background-color:$licorice;
+    text-align: left;
+    position: relative;
+    color:white;
+    margin-left: -.5em;
+    text-align: center;
+    width: 95%;
+}
+  .participation h3:after {
+content: "";
+      width: 0;
+      height: 0;
+      border-top: 1em solid transparent;
+      border-bottom: 1em solid transparent;
+      border-left: 1em solid $popcorn;
+      position: absolute;
+      left:0;
+      top: 0; 
+}
+        
+    
+
+.benefits h3{
+    background-color:$bubblegum;
+  position: relative;
+    color:white;
+    margin-left: -.5em;
+    text-align: center;
+    width: 95%;
 }
 
-.benefits h3 {
-  background-color: $bubblegum;
-  //padding:15px;
+.benefits h3:after {
+    content: "";
+      width: 0;
+      height: 0;
+      border-top: 1em solid transparent;
+      border-bottom: 1em solid transparent;
+      border-right: 1em solid $popcorn;
+      position: absolute;
+     right:0;
+      top: 0;
+}
+.requirements h3{
+     background-color:$mint;
+    color: white;
+    text-align: center;
+    width: 91.5%;
+  outline: $lion dotted 1vw;
+  outline-offset: .1em;
+  
 }
 
-.requirements h3 {
-  background-color: $mint;
-}
 
 //background
-body {
-  background-color: $popcorn;
+body{
+background-color: $popcorn;
   background: repeating-linear-gradient(
-    to right,
-    $elephant,
-    $elephant 10px,
-    $popcorn 10px,
-    $popcorn 20px
-  );
+  to right,
+  #edece6,
+  #edece6 10px,
+  $popcorn 10px,
+  $popcorn 20px
+); 
+  
 }
 
 @import 'partials/small-view';

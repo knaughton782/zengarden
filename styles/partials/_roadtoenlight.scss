@@ -1,0 +1,34 @@
+/* This is the section that starts with- "The road to enlightenment.." */
+.preamble {
+//  background-color: $lion;
+//border-radius: .25em;
+//  color: white;
+// margin: 0 auto;
+  text-align: center; 
+}
+
+#zen-preamble h3:hover:after {
+    content: url(/images/popUpDesktopAsset%2011.png);
+transition: ease;
+display: block;
+    position: absolute;
+left: 3vw;
+    right: 3vw;
+    cursor: pointer;
+}
+
+
+
+
+#zen-preamble h3 {
+    text-align: center;
+    color: $bubblegum;
+    margin: 0;
+    width: 100%;
+    font-size: 1em;
+}
+
+.preamble p {
+  display: none;
+}
+
