@@ -8,17 +8,14 @@
 }
 
 #zen-preamble h3:hover:after {
-    content: url(/images/popUpDesktopAsset%2011.png);
-transition: ease;
-display: block;
+    content: url(/images/popUpDesktopAsset-11.png);
+    transition: ease;
+    display: block;
     position: absolute;
-left: 3vw;
+    left: 3vw;
     right: 3vw;
     cursor: pointer;
 }
-
-
-
 
 #zen-preamble h3 {
     text-align: center;
@@ -31,4 +28,3 @@ left: 3vw;
 .preamble p {
   display: none;
 }
-

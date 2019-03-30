@@ -7,37 +7,32 @@
 /*This is the "box" around CSS Zen garden / the beauty of css design*/
 header {
   padding: 0.5em;
-}
 
-/*This is the text that says- "The Beauty of CSS Design" */
-header h2 {
-  color: $denim;
-  text-align: center;
-  margin-top: -20px;
+    /*This is the text that says- "The Beauty of CSS Design" */
+    h2 {
+    color: $denim;
+    text-align: center;
+    margin-top: -20px;
     font-weight: 200;
+  }
+
+      //This is the Zen Garden Logo Stuff
+    h1 {
+    display: none;
+    }
 }
 
 //This is the Banner image
-
 header:after {
-   content: url(../../images/flagBannerAsset%2036.svg);
-    display: block;
-   
-}
-
-//This is the Zen Garden Logo Stuff
-
-header h1 {
-display: none;
+  content: url(../../images/flagBannerAsset-36.svg);
+  display: block;
 }
 
 header:before {
-    content: url(../../images/ZenNameAsset%2037.svg);
+    content: url(../../images/ZenNameAsset-37.svg);
     display: block;
     width: 50%;
     margin: 0 auto;
     margin-bottom: 1.5em;
     margin-top: 2em;
 }
-
-

@@ -1,0 +1,54 @@
+/*This is the footer section with html/ CSS / cc / ally. / gh */
+footer {
+  display: grid;
+  grid-template-columns: 0% 20% 20% 20% 20% 20%;
+  padding: 2vw;
+  font-weight: bold;
+  background-color: $emerald;
+  text-align: center;
+
+    a {
+        font-size: 2vw;
+        text-decoration: none;
+        color: black;
+        padding: 2px;
+
+            &:hover {
+            font-size: 2vw;
+            text-decoration: underline;
+            background-color: $bubblegum;
+        }
+    }
+
+}
+
+/*This is the box around the footer section "html"*/
+.zen-validate-html {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+/*This is the box around the footer section "css"*/
+.zen-validate-css {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+/*This is the box around the footer section "cc"*/
+.zen-license {
+  grid-column-start: 4;
+  grid-column-end: 5;
+
+}
+
+/*This is the box around the footer section "ally."*/
+.zen-accessibility {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  }
+
+/*This is the box around the footer section "gh"*/
+.zen-github {
+  grid-column-start: 6;
+  grid-column-end: 6;
+}
