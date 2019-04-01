@@ -11,6 +11,13 @@ $colors-list: $licorice, $bubblegum, $lion, $sky, $trapeze, $mint, $emerald,
   }
 }
 
+@mixin flagMain() {
+  width: 250px;
+  height: 20px;
+  position: relative;
+  text-align: center;
+}
+
 //to break the line before "by"
 li .design-name:nth-child(1) {
   display: block;
@@ -31,10 +38,7 @@ ul {
 // first thinner bar ***************************************
 .design-archives li:nth-child(1),
 .zen-resources li:nth-child(1) {
-  width: 250px;
-  height: 20px;
-  position: relative;
-  text-align: center;
+  @include flagMain();
 }
 
 .design-archives li:nth-child(1)::after,
@@ -66,10 +70,7 @@ ul {
 // second thin ***************************************
 .design-archives li:nth-child(2),
 .zen-resources li:nth-child(2) {
-  width: 250px;
-  height: 20px;
-  position: relative;
-  text-align: center;
+  @include flagMain();
 }
 
 .design-archives li:nth-child(2)::after,
@@ -100,10 +101,7 @@ ul {
 
 // third thin ***************************************
 .zen-resources li:nth-child(3) {
-  width: 250px;
-  height: 20px;
-  position: relative;
-  text-align: center;
+  @include flagMain();
 }
 
 .zen-resources li:nth-child(3)::after {
@@ -132,10 +130,7 @@ ul {
 
 // fourth thin ***************************************
 .zen-resources li:nth-child(4) {
-  width: 250px;
-  height: 20px;
-  position: relative;
-  text-align: center;
+  @include flagMain();
 }
 
 .zen-resources li:nth-child(4)::after {
@@ -164,10 +159,7 @@ ul {
 
 // fifth thin ***************************************
 .zen-resources li:nth-child(5) {
-  width: 250px;
-  height: 20px;
-  position: relative;
-  text-align: center;
+  @include flagMain();
   margin-bottom: 35px;
 }
 
