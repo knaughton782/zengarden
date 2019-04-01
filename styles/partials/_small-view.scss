@@ -1,5 +1,5 @@
 /*MOBILE VIEW*/
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   /*This is the "nav" section that starts "Select a Design / Archives / Resources" */
   .sidebar {
     grid-column: 2/3;
@@ -32,6 +32,7 @@
     text-align: center;
     padding: 0.55em;
     margin-top: 1em;
+    z-index: 10;
   }
   footer a {
     font-size: 0.75em;
@@ -41,13 +42,11 @@
     content: '';
     width: 0;
     height: 0;
-    border-top: 1em solid transparent;
-    border-bottom: 1em solid transparent;
-    border-left: 1em solid #edece6;
     position: absolute;
     left: 0;
     top: 0;
   }
+
   footer a:hover {
     font-size: 0.75em;
   }

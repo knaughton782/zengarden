@@ -1,9 +1,10 @@
 @import 'partials/_colors.scss';
-@import 'partials/_header.scss';
 @import 'partials/_typography.scss';
-@import 'partials/_nav.scss';
+@import 'partials/_header.scss';
 @import 'partials/_roadtoenlight.scss';
+@import 'partials/_nav.scss';
 @import 'partials/_summary.scss';
+
 
 html {
   margin: 0;
@@ -39,7 +40,7 @@ p a:hover {
 /*This wraps the entire page*/
 .page-wrapper {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 50px;
   grid-template-columns: 1fr, 1fr 1fr 1fr;
   grid-template-rows: 100px, 1fr 1fr 1fr, 1fr;
 }
