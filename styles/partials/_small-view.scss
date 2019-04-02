@@ -4,7 +4,8 @@
   .sidebar {
     grid-column: 2/3;
     grid-row: 3/2;
-    border: 2px solid $denim;
+    outline: $lion dotted 1vw;
+    outline-offset: 0.1em;
     background-color: $popcorn;
     padding-bottom: 0.5em;
   }

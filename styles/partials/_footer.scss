@@ -10,12 +10,13 @@ footer {
     a {
         font-size: 2vw;
         text-decoration: none;
-        color: black;
+        color: white;
         padding: 2px;
 
             &:hover {
             font-size: 2vw;
             text-decoration: underline;
+                color: black;
             background-color: $bubblegum;
         }
     }

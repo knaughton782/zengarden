@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans");
-@import url("https://fonts.googleapis.com/css?family=Sancreek");
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+@import url('https://fonts.googleapis.com/css?family=Sancreek');
 body {
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 h1 {
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   text-transform: uppercase;
   font-size: 2.4rem;
   font-weight: 300;
@@ -17,11 +17,11 @@ header h1 {
   font-size: 3em;
   color: #e64140;
   text-shadow: 3px 3px 5px #b4d1c8;
-  font-family: "Sancreek", cursive;
+  font-family: 'Sancreek', cursive;
 }
 
 h2 {
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-weight: bold;
@@ -31,7 +31,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -42,7 +42,7 @@ h3 {
 }
 
 .preamble h3 {
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -54,7 +54,7 @@ h3 {
 .design-selection,
 .design-archives,
 .zen-resources {
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   text-transform: uppercase;
   font-size: 1rem;
 }
@@ -66,14 +66,14 @@ h3 {
 p {
   font-size: 1rem;
   line-height: 1.4;
-  font-size: "Alegreya Sans", sans-serif;
+  font-size: 'Alegreya Sans', sans-serif;
 }
 p a {
   text-decoration: underline;
 }
 
 footer {
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   font-size: 1em;
 }
 
@@ -125,6 +125,7 @@ header:before {
   left: 3vw;
   right: 3vw;
   cursor: pointer;
+  z-index: 15;
 }
 
 #zen-preamble h3 {
@@ -211,7 +212,7 @@ ul li a {
 
 .design-archives li:nth-child(1)::after,
 .zen-resources li:nth-child(1)::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -224,7 +225,7 @@ ul li a {
 
 .design-archives li:nth-child(1)::before,
 .zen-resources li:nth-child(1)::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   width: 0;
@@ -245,7 +246,7 @@ ul li a {
 
 .design-archives li:nth-child(2)::after,
 .zen-resources li:nth-child(2)::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -258,7 +259,7 @@ ul li a {
 
 .design-archives li:nth-child(2)::before,
 .zen-resources li:nth-child(2)::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   width: 0;
@@ -277,7 +278,7 @@ ul li a {
 }
 
 .zen-resources li:nth-child(3)::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -289,7 +290,7 @@ ul li a {
 }
 
 .zen-resources li:nth-child(3)::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   width: 0;
@@ -308,7 +309,7 @@ ul li a {
 }
 
 .zen-resources li:nth-child(4)::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -320,7 +321,7 @@ ul li a {
 }
 
 .zen-resources li:nth-child(4)::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   width: 0;
@@ -340,7 +341,7 @@ ul li a {
 }
 
 .zen-resources li:nth-child(5)::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -352,7 +353,7 @@ ul li a {
 }
 
 .zen-resources li:nth-child(5)::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   width: 0;
@@ -371,7 +372,7 @@ ul li a {
 }
 
 .design-selection li:nth-child(1)::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -383,7 +384,7 @@ ul li a {
 }
 
 .design-selection li:nth-child(1)::before {
-  content: "";
+  content: '';
   position: absolute;
   right: -25px;
   bottom: 0;
@@ -402,7 +403,7 @@ ul li a {
 }
 
 .design-selection li:nth-child(2)::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -414,7 +415,7 @@ ul li a {
 }
 
 .design-selection li:nth-child(2)::before {
-  content: "";
+  content: '';
   position: absolute;
   right: -25px;
   bottom: 0;
@@ -433,7 +434,7 @@ ul li a {
 }
 
 .design-selection li:nth-child(3)::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -445,7 +446,7 @@ ul li a {
 }
 
 .design-selection li:nth-child(3)::before {
-  content: "";
+  content: '';
   position: absolute;
   right: -25px;
   bottom: 0;
@@ -464,7 +465,7 @@ ul li a {
 }
 
 .design-selection li:nth-child(4)::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -476,7 +477,7 @@ ul li a {
 }
 
 .design-selection li:nth-child(4)::before {
-  content: "";
+  content: '';
   position: absolute;
   right: -25px;
   bottom: 0;
@@ -495,7 +496,7 @@ ul li a {
 }
 
 .design-selection li:nth-child(5)::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -507,7 +508,7 @@ ul li a {
 }
 
 .design-selection li:nth-child(5)::before {
-  content: "";
+  content: '';
   position: absolute;
   right: -25px;
   bottom: 0;
@@ -526,7 +527,7 @@ ul li a {
 }
 
 .design-selection li:nth-child(6)::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -538,7 +539,7 @@ ul li a {
 }
 
 .design-selection li:nth-child(6)::before {
-  content: "";
+  content: '';
   position: absolute;
   right: -25px;
   bottom: 0;
@@ -557,7 +558,7 @@ ul li a {
 }
 
 .design-selection li:nth-child(7)::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -569,7 +570,7 @@ ul li a {
 }
 
 .design-selection li:nth-child(7)::before {
-  content: "";
+  content: '';
   position: absolute;
   right: -25px;
   bottom: 0;
@@ -588,7 +589,7 @@ ul li a {
 }
 
 .design-selection li:nth-child(8)::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -600,7 +601,7 @@ ul li a {
 }
 
 .design-selection li:nth-child(8)::before {
-  content: "";
+  content: '';
   position: absolute;
   right: -25px;
   bottom: 0;
@@ -609,6 +610,10 @@ ul li a {
   border-top: 35px solid transparent;
   border-bottom: 35px solid transparent;
   border-left: 25px solid #505a6e;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
 }
 
 /* This is the text that says- "A demonstration of what can be accomplished..." */
@@ -641,6 +646,11 @@ ul li a {
 .summary a:hover {
   outline: #eaa959 dotted 0.25vw;
   outline-offset: 0.1em;
+}
+
+.summary p a:link {
+  text-decoration: none;
+  color: white;
 }
 
 #zen-summary {
@@ -705,12 +715,13 @@ footer {
 footer a {
   font-size: 2vw;
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 2px;
 }
 footer a:hover {
   font-size: 2vw;
   text-decoration: underline;
+  color: black;
   background-color: #f37f80;
 }
 
@@ -764,7 +775,7 @@ footer a:hover {
 }
 
 .participation h3:after {
-  content: "";
+  content: '';
   width: 0;
   height: 0;
   border-top: 1em solid transparent;
@@ -785,7 +796,7 @@ footer a:hover {
 }
 
 .benefits h3:after {
-  content: "";
+  content: '';
   width: 0;
   height: 0;
   border-top: 1em solid transparent;
@@ -807,7 +818,13 @@ footer a:hover {
 
 body {
   background-color: #f5f3e6;
-  background: repeating-linear-gradient(to right, #edece6, #edece6 10px, #f5f3e6 10px, #f5f3e6 20px);
+  background: repeating-linear-gradient(
+    to right,
+    #edece6,
+    #edece6 10px,
+    #f5f3e6 10px,
+    #f5f3e6 20px
+  );
 }
 
 /*MOBILE VIEW*/
@@ -816,7 +833,8 @@ body {
   .sidebar {
     grid-column: 2/3;
     grid-row: 3/2;
-    border: 2px solid #505a6e;
+    outline: #eaa959 dotted 1vw;
+    outline-offset: 0.1em;
     background-color: #f5f3e6;
     padding-bottom: 0.5em;
   }
@@ -852,7 +870,7 @@ body {
   }
 
   footer:before {
-    content: "";
+    content: '';
     width: 0;
     height: 0;
     position: absolute;

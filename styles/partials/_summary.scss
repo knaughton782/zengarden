@@ -37,6 +37,11 @@
   }
 }
 
+
+.summary p a:link {
+    text-decoration: none;
+    color: white;
+  }
 #zen-summary {
   width: 100%;
   color: $denim;
